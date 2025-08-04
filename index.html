@@ -8,293 +8,409 @@
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
             rel="stylesheet">
-
-        <style>
-            body{
-                padding: 0%;
-                margin: 0%;
-            }
-            *{
-                 font-family: 'Roboto', sans-serif;
-            }
-
-   /* Mobile first: stack and center */
-  .footer-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .footer-col {
-    text-align: center;
-    width: 100%;
-  }
-
-  /* From 768px up: two columns, left & right */
-  @media (min-width: 768px) {
-    .footer-row {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-    .footer-col {
-      width: 45%;      /* or flex: 1 1 45% if you prefer */
-      text-align: left; /* left column will override below */
-    }
-    .footer-col.right {
-      text-align: right;
-    }
-  }
-</style>
-
     </head>
 
-    <body>
-        <!--Header-->
-        <header class="site-header">
-            <img
-                src="https://media.licdn.com/dms/image/v2/C4E16AQGrj2O_RrIr5w/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1581691674031?e=2147483647&v=beta&t=CNgnPfRpY1uKclfVyR-HRZ0LtGZeedszXXUC3aLJN_c"
-                style="width:100%;">
-        </header>
+    <body style="padding: 0%; margin: 0%;">
+        <table 
+             width="100%"
+            cellpadding="0"
+            cellspacing="0"
+            style="font-family:'Roboto',sans-serif;">
+            <td>
+                <table role="presentation"
+                    align="center"
+                    width="70%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    style="
+      border-collapse:collapse;
+      border: 9px solid #007bff;  /* ← here’s your blue border */
+      border-radius: 6px;         /* optional rounding */
+    ">
 
-        <!-- Quote Card -->
-        <section class="quote-card">
-            <h2 style="
+                    <!--Header-->
+                    <tr>
+                        <td>
+                            <img
+                                src="./Professional LinkedIn Banner.png"
+                                style="width:100%;">
+                        </td>
+                    </tr>
+
+                    <!-- Quote Card -->
+                    <tr>
+
+                        <td>
+                            <h2 style="
     color: #28a745;
     text-align: center;
     font-size: 1.95rem;
     font-weight: 600;
     margin: 1rem 0;
   ">Your
-                Vehicle Transport
-                Quote</h2>
+                                Vehicle Transport
+                                Quote</h2>
 
-            <p style="
+                            <p style="
     text-align: center;
-    font-size: calc(1rem + 0.25vw);
     line-height: 1.4;
     margin-bottom: 1.5rem;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   ">
-                Hi <strong>kevin opspima</strong>,<br>
-                Here is your customized quote for transporting your vehicle:
-            </p>
+                                Hi <strong style="font-size:1.2rem;">kevin
+                                    opspima</strong>,<br>
+                                Here is your customized quote for transporting
+                                your
+                                vehicle:
+                            </p>
 
-            <div style="
+                            <div style="
     text-align: center;
     color: #28a745;
     font-weight: 700;
     font-size: 1.35rem;
     margin: 1.5rem 0 1rem;
   ">Details:
-            </div>
+                            </div>
 
-            <!-- DETAILS GRID -->
-            <table role="presentation" width="100%" cellpadding="0"
-                cellspacing="0" border="0" style="margin:0; padding:0;">
-                <tr>
-                    <td align="center" style="padding:1rem;">
-                        <!-- inner fixed-width wrapper -->
-                        <table role="presentation"
-                            width="600"
-                            cellpadding="0"
-                            cellspacing="0"
-                            border="0"
-                            style="width:100%; max-width:600px;">
+                            <!-- DETAILS GRID -->
+                            <table role="presentation" width="100%"
+                                cellpadding="0"
+                                cellspacing="0" border="0"
+                                style="margin:0; padding:0;">
+                                <tr>
+                                    <td align="center" style="padding:1rem;">
+                                        <!-- inner fixed-width wrapper -->
+                                        <table role="presentation"
+                                            width="600"
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            style="width:100%; max-width:600px;">
 
-                            <!-- first row: 2 items -->
-                            <tr>
-                                <!-- Pickup Location -->
-                                <td width="50%" valign="top"
-                                    style="padding:0.5rem; text-align:center;">
-                                    <img
-                                        src="https://img.icons8.com/?id=3723&format=png&color=000000&size=35"
-                                        width="35" height="35"
-                                        style="display:block; margin:0 auto 0.5rem;"
-                                        alt="Pickup icon">
-                                    <div
-                                        style="font-size:14px; font-weight:700; margin-bottom:0.25rem;">
-                                        Pickup Location:
-                                    </div>
-                                    <div style="font-size:13px; color:#333;">
-                                        Woodbine, MD 21797, USA
-                                    </div>
-                                </td>
-                                <!-- Delivery Location -->
-                                <td width="50%" valign="top"
-                                    style="padding:0.5rem; text-align:center;">
-                                    <img
-                                        src="https://img.icons8.com/?size=35&id=s54xxRevKr8r&format=png&color=000000"
-                                        width="35" height="35"
-                                        style="display:block; margin:0 auto 0.5rem;"
-                                        alt="Delivery icon">
-                                    <div
-                                        style="font-size:14px; font-weight:700; margin-bottom:0.25rem;">
-                                        Delivery Location:
-                                    </div>
-                                    <div style="font-size:13px; color:#333;">
-                                        Ramsey, NJ 07446, USA
-                                    </div>
-                                </td>
-                            </tr>
+                                            <!-- first row: 2 items -->
+                                            <tr>
+                                                <!-- Pickup Location -->
+                                                <td width="50%" valign="top"
+                                                    style="padding:0.5rem; text-align:center;">
+                                                    <img
+                                                        src="https://img.icons8.com/?id=3723&format=png&color=000000&size=35"
+                                                        width="35" height="35"
+                                                        style="display:block; margin:0 auto 0.5rem;"
+                                                        alt="Pickup icon">
+                                                    <div
+                                                        style="font-size:18px; font-weight:700; margin-bottom:0.25rem;">
+                                                        Pickup Location:
+                                                    </div>
+                                                    <div
+                                                        style="font-size:13px; color:#333;">
+                                                        Woodbine, MD 21797, USA
+                                                    </div>
+                                                </td>
+                                                <!-- Delivery Location -->
+                                                <td width="50%" valign="top"
+                                                    style="padding:0.5rem; text-align:center;">
+                                                    <img
+                                                        src="https://img.icons8.com/?size=35&id=s54xxRevKr8r&format=png&color=000000"
+                                                        width="35" height="35"
+                                                        style="display:block; margin:0 auto 0.5rem;"
+                                                        alt="Delivery icon">
+                                                    <div
+                                                        style="font-size:18px; font-weight:700; margin-bottom:0.25rem;">
+                                                        Delivery Location:
+                                                    </div>
+                                                    <div
+                                                        style="font-size:13px; color:#333;">
+                                                        Ramsey, NJ 07446, USA
+                                                    </div>
+                                                </td>
+                                            </tr>
 
-                            <!-- second row: 2 items -->
-                            <tr>
-                                <!-- Preferred Pickup Date -->
-                                <td width="50%" valign="top"
-                                    style="padding:0.5rem; text-align:center;">
-                                    <img
-                                        src="https://img.icons8.com/?size=37&id=aWMN35zk7DdL&format=png&color=000000"
-                                        width="35" height="35"
-                                        style="display:block; margin:0 auto 0.5rem;"
-                                        alt="Calendar icon">
-                                    <div
-                                        style="font-size:14px; font-weight:700; margin-bottom:0.25rem;">
-                                        Preferred Pickup Date:
-                                    </div>
-                                    <div style="font-size:13px; color:#333;">
-                                        Aug 4, 2025
-                                    </div>
-                                </td>
-                                <!-- Vehicle Type -->
-                                <td width="50%" valign="top"
-                                    style="padding:0.5rem; text-align:center;">
-                                    <img
-                                        src="https://img.icons8.com/?size=35&id=16551&format=png&color=000000"
-                                        width="35" height="35"
-                                        style="display:block; margin:0 auto 0.5rem;"
-                                        alt="Car icon">
-                                    <div
-                                        style="font-size:14px; font-weight:700; margin-bottom:0.25rem;">
-                                        Vehicle Type:
-                                    </div>
-                                    <div style="font-size:13px; color:#333;">
-                                        2019 Honda
-                                    </div>
-                                </td>
-                            </tr>
+                                            <!-- second row: 2 items -->
+                                            <tr>
+                                                <!-- Preferred Pickup Date -->
+                                                <td width="50%" valign="top"
+                                                    style="padding:0.5rem; text-align:center;">
+                                                    <img
+                                                        src="https://img.icons8.com/?size=37&id=aWMN35zk7DdL&format=png&color=000000"
+                                                        width="35" height="35"
+                                                        style="display:block; margin:0 auto 0.5rem;"
+                                                        alt="Calendar icon">
+                                                    <div
+                                                        style="font-size:18px; font-weight:700; margin-bottom:0.25rem;">
+                                                        Preferred Pickup Date:
+                                                    </div>
+                                                    <div
+                                                        style="font-size:13px; color:#333;">
+                                                        Aug 4, 2025
+                                                    </div>
+                                                </td>
+                                                <!-- Vehicle Type -->
+                                                <td width="50%" valign="top"
+                                                    style="padding:0.5rem; text-align:center;">
+                                                    <img
+                                                        src="https://img.icons8.com/?size=35&id=16551&format=png&color=000000"
+                                                        width="35" height="35"
+                                                        style="display:block; margin:0 auto 0.5rem;"
+                                                        alt="Car icon">
+                                                    <div
+                                                        style="font-size:18px; font-weight:700; margin-bottom:0.25rem;">
+                                                        Vehicle Type:
+                                                    </div>
+                                                    <div
+                                                        style="font-size:13px; color:#333;">
+                                                        2019 Honda
+                                                    </div>
+                                                </td>
+                                            </tr>
 
-                            <!-- third row: 2 items -->
-                            <tr>
-                                <!-- Transportation Type -->
-                                <td width="50%" valign="top"
-                                    style="padding:0.5rem; text-align:center;">
-                                    <img
-                                        src="https://img.icons8.com/?size=38&id=8jWj9cJkofhf&format=png&color=000000"
-                                        width="35" height="35"
-                                        style="display:block; margin:0 auto 0.5rem;"
-                                        alt="Truck icon">
-                                    <div
-                                        style="font-size:14px; font-weight:700; margin-bottom:0.25rem;">
-                                        Transportation Type:
-                                    </div>
-                                    <div style="font-size:13px; color:#333;">
-                                        open
-                                    </div>
-                                </td>
-                                <!-- Estimated Transit Time -->
-                                <td width="50%" valign="top"
-                                    style="padding:0.5rem; text-align:center;">
-                                    <img
-                                        src="https://img.icons8.com/?size=38&id=H0JqzxqGxPQm&format=png&color=000000"
-                                        width="35" height="35"
-                                        style="display:block; margin:0 auto 0.5rem;"
-                                        alt="Clock icon">
-                                    <div
-                                        style="font-size:14px; font-weight:700; margin-bottom:0.25rem;">
-                                        Estimated Transit Time:
-                                    </div>
-                                    <div style="font-size:13px; color:#333;">
-                                        1–2 Days
-                                    </div>
-                                </td>
-                            </tr>
+                                            <!-- third row: 2 items -->
+                                            <tr>
+                                                <!-- Transportation Type -->
+                                                <td width="50%" valign="top"
+                                                    style="padding:0.5rem; text-align:center;">
+                                                    <img
+                                                        src="https://img.icons8.com/?size=38&id=8jWj9cJkofhf&format=png&color=000000"
+                                                        width="35" height="35"
+                                                        style="display:block; margin:0 auto 0.5rem;"
+                                                        alt="Truck icon">
+                                                    <div
+                                                        style="font-size:18px; font-weight:700; margin-bottom:0.25rem;">
+                                                        Transportation Type:
+                                                    </div>
+                                                    <div
+                                                        style="font-size:13px; color:#333;">
+                                                        open
+                                                    </div>
+                                                </td>
+                                                <!-- Estimated Transit Time -->
+                                                <td width="50%" valign="top"
+                                                    style="padding:0.5rem; text-align:center;">
+                                                    <img
+                                                        src="https://img.icons8.com/?size=38&id=H0JqzxqGxPQm&format=png&color=000000"
+                                                        width="35" height="35"
+                                                        style="display:block; margin:0 auto 0.5rem;"
+                                                        alt="Clock icon">
+                                                    <div
+                                                        style="font-size:18px; font-weight:700; margin-bottom:0.25rem;">
+                                                        Estimated Transit Time:
+                                                    </div>
+                                                    <div
+                                                        style="font-size:13px; color:#333;">
+                                                        1–2 Days
+                                                    </div>
+                                                </td>
+                                            </tr>
 
-                            <!-- fourth row: single item centered -->
-                            <tr>
-                                <td colspan="2" valign="top"
-                                    style="padding:0.5rem; text-align:center;">
-                                    <img
-                                        src="https://img.icons8.com/?size=38&id=47819&format=png&color=000000"
-                                        width="35" height="35"
-                                        style="display:block; margin:0 auto 0.5rem;"
-                                        alt="Price tag icon">
-                                    <div
-                                        style="font-size:14px; font-weight:700; margin-bottom:0.25rem;">
-                                        Quote Amount:
-                                    </div>
-                                    <div
-                                        style="font-size:13px; color:#333; line-height:1.3;">
-                                        $ 385.00 USD / Per Vehicle<br>
-                                        (includes all taxes, fees, and
-                                        insurance)
-                                    </div>
-                                </td>
-                            </tr>
+                                            <!-- fourth row: single item centered -->
+                                            <tr>
+                                                <td colspan="2" valign="top"
+                                                    style="padding:0.5rem; text-align:center;">
+                                                    <img
+                                                        src="https://img.icons8.com/?size=38&id=47819&format=png&color=000000"
+                                                        width="35" height="35"
+                                                        style="display:block; margin:0 auto 0.5rem;"
+                                                        alt="Price tag icon">
+                                                    <div
+                                                        style="font-size:18px; font-weight:700; margin-bottom:0.25rem;">
+                                                        Quote Amount:
+                                                    </div>
+                                                    <div
+                                                        style="font-size:13px; color:#333; line-height:1.3;">
+                                                        $ 385.00 USD / Per
+                                                        Vehicle
+                                                        (includes all taxes,
+                                                        fees,
+                                                        and
+                                                        insurance)
+                                                    </div>
+                                                </td>
+                                            </tr>
 
-                        </table>
-                    </td>
-                </tr>
-            </table>
+                                            <!-- ← insert the “This quote is valid” row here -->
+                                            <tr>
+                                                <td colspan="2"
+                                                    style="padding:0.75rem 1rem; text-align:center; font-size:14px; line-height:1.5;">
+                                                    This quote is valid for
+                                                    <strong
+                                                        style="font-size:1.1rem;">7
+                                                        days</strong>. If this
+                                                    option
+                                                    works
+                                                    for
+                                                    you, please send us:
+                                                </td>
+                                            </tr>
 
-        </section>
+                                            <!-- Step 1 & 2 row: insert this directly after your Quote Amount <tr> -->
+                                            <tr>
+                                                <!-- Step 1 -->
+                                                <td width="50%" valign="top"
+                                                    style="padding:0.5rem; text-align:center;">
+                                                    <img
+                                                        src="https://img.icons8.com/?size=38&id=9749&format=png&color=000000"
+                                                        width="35" height="35"
+                                                        style="display:block; margin:0 auto 0.5rem;"
+                                                        alt="1 icon">
+                                                    <div
+                                                        style="font-size:18px; font-weight:700; margin-bottom:0.25rem;">
+                                                        Pickup and drop-off
+                                                        addresses
+                                                    </div>
+                                                </td>
+                                                <!-- Step 2 -->
+                                                <td width="50%" valign="top"
+                                                    style="padding:0.5rem; text-align:center;">
+                                                    <img
+                                                        src="https://img.icons8.com/?size=38&id=9752&format=png&color=000000"
+                                                        width="35" height="35"
+                                                        style="display:block; margin:0 auto 0.5rem;"
+                                                        alt="2 icon">
+                                                    <div
+                                                        style="font-size:18px; font-weight:700; margin-bottom:0.25rem;">
+                                                        The VIN number of the
+                                                        vehicle
+                                                    </div>
+                                                </td>
+                                            </tr>
 
-        <section
-            style="
-    width: 100%;
-    max-height: 360px;       /* adjust to the height you want */
-    overflow: hidden;        /* hide the parts that stick out */
-  ">
-            <img
-                src="https://www.1stcarshipping.com/wp-content/uploads/2025/02/Auto-Hauling-4-cropped.jpg"
-                style="
-      width: 100%;
-      height: 360px;         /* same as container’s max-height */
-      object-fit: cover;     /* maintain aspect, fill & crop */
-      display: block;
-    "
-                alt="Auto hauling">
-        </section>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
 
-        <footer style="
-    background:#000;
-    color:#fff;
-    padding:1.5rem 0;
-    box-sizing:border-box;
-  ">
-            <div style="max-width: 900px; margin:0 auto; padding:0 1rem;">
+                            <!-- now your centered paragraphs -->
+                            <div
+                                style="max-width:600px; margin:1.5rem auto 0; padding:0 1rem; text-align:center; line-height:1.5;">
+                                <p style="margin:1rem 0;">
+                                    If you have <strong
+                                        style="font-size:1.1rem;">questions</strong>
+                                    or
+                                    need
+                                    adjustments,
+                                    <strong
+                                        style="font-size:1.1rem;">reply</strong>
+                                    to this email or call
+                                    us
+                                    at
+                                    <strong
+                                        style="font-size:1.1rem;">8884124499</strong>.
+                                </p>
+                                <p style="margin:1rem 0;">
+                                    Thank you for <strong
+                                        style="font-size:1.1rem;">choosing
+                                        us</strong>.
+                                    We’re
+                                    excited to
+                                    help with your <strong
+                                        style="font-size:1.1rem;">vehicle
+                                        transport</strong>!
+                                </p>
+                                <p style="margin:1rem 0;">
+                                    You’re in <strong
+                                        style="font-size:1.1rem;">safe
+                                        hands</strong>!<br>
+                                    We transport <strong
+                                        style="font-size:1.1rem;">thousands</strong>
+                                    of
+                                    vehicles
+                                    every
+                                    month with a <strong
+                                        style="font-size:1.1rem;">99%
+                                        satisfaction
+                                        rate</strong>.<br>
+                                    Experience why our clients rate us <strong
+                                        style="font-size:1.1rem;">5
+                                        stars</strong>
+                                    for <strong
+                                        style="font-size:1.1rem;">exceptional
+                                        care and
+                                        service</strong>.
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--Image -->
+                    <tr
+                        style="margin:0; padding:0; font-size:0; line-height:0;">
+                        <td>
+                            <img
+                                src="https://www.montway.com/app/uploads/Blog_2023/What_is_hot_shot_auto_transport__MKT_1580_final.jpg"
+                                alt="Auto hauling" style="width:100%;">
+                        </td>
+                    </tr>
+                    <!-- Footer -->
 
-                <div class="footer-row">
-                    <!-- Left column -->
-                    <div class="footer-col left">
-                        <h5 style="color:#28a745; margin-bottom:0.5rem;">Brian
-                            Frunze</h5>
-                        <p style="margin:0.25rem 0;">
-                            <a href="tel:8502039837"
-                                style="color:#fff; text-decoration:none;">
-                                (850) 203-9837
-                            </a>
-                        </p>
-                        <p style="margin:0.25rem 0;">
-                            <a href="https://crctransport.us"
-                                style="color:#fff; text-decoration:none;">
-                                crctransport.us
-                            </a>
-                        </p>
-                    </div>
+                    <!-- Footer row: 100% wide background, centered inner table -->
+                    <tr>
+                        <td
+                            align="center"
+                            bgcolor="#000000"
+                            style="padding:1.5rem 1rem; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                            <!-- inner centered table capped at 600px -->
+                            <table
+                                role="presentation"
+                                width="100%"
+                                cellpadding="0"
+                                cellspacing="0"
+                                border="0"
+                                style="width:100%; max-width:600px; border-collapse:collapse;">
+                                <tr>
+                                    <!-- left column -->
+                                    <td
+                                        width="50%"
+                                        valign="top"
+                                        align="left"
+                                        style="padding:16px; font-family:sans-serif; color:#ffffff;">
+                                        <h5
+                                            style="margin:0 0 8px; font-size:16px; line-height:1.2; color:#28a745;">
+                                            Brian Frunze
+                                        </h5>
+                                        <p
+                                            style="margin:0 0 4px; font-size:14px; line-height:1.3;">
+                                            <a href="tel:+18502039837"
+                                                style="color:#ffffff; text-decoration:none;">
+                                                (850) 203-9837
+                                            </a>
+                                        </p>
+                                        <p
+                                            style="margin:0; font-size:14px; line-height:1.3;">
+                                            <a href="https://crctransport.us"
+                                                style="color:#ffffff; text-decoration:none;">
+                                                crctransport.us
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!-- right column -->
+                                    <td
+                                        width="50%"
+                                        valign="top"
+                                        align="right"
+                                        style="padding:16px; font-family:sans-serif; color:#ffffff;">
+                                        <h5
+                                            style="margin:0 0 8px; font-size:16px; line-height:1.2; color:#28a745;">
+                                            Office Hours
+                                        </h5>
+                                        <p
+                                            style="margin:0 0 4px; font-size:14px; line-height:1.3;">
+                                            Monday–Sunday
+                                        </p>
+                                        <p
+                                            style="margin:0; font-size:14px; line-height:1.3;">
+                                            8:00 AM – 6:00 PM CST
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- end footer -->
 
-                    <!-- Right column -->
-                    <div class="footer-col right">
-                        <h5 style="color:#28a745; margin-bottom:0.5rem;">Office
-                            Hours</h5>
-                        <p style="margin:0.25rem 0;">Monday–Sunday</p>
-                        <p style="margin:0.25rem 0;">8:00 AM – 6:00 PM CST</p>
-                    </div>
-                </div>
-
-            </div>
-        </footer>
+                </table>
+            </td>
+        </table>
     </body>
 </html>
